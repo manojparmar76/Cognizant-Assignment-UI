@@ -1,0 +1,27 @@
+Application Details:
+    1. Application Name: Cognizant-Assignment-UI
+    2. Package Manager: NPM (Node Package Manager)
+    3. UI Technology: Angular 7
+    4. Other: Material Design
+    
+Application Architecture:
+    1. In this application, i created 2 pages
+        1.1. Upload Page: Here you can upload the CSV file from your local computer as many time you want. Every time you will get the latest uploaded data.
+        1.2. Result Page: Here you can view the uploaded CSV data into the tabular format. And in this page, you can also perform a filter on the records which are available into the table.
+            Note: In the table, I provided the pagination also. So that you can set the number of the rows per pages.
+            
+    2. I added one service
+        2.1. Data Service: This service is responsible for holding the processed CSV data.
+            Note: I created this service because in this application there is no backend that's why we need to hold the data at UI side only.
+
+Application Flow:
+    Please follow below steps.
+		Step-1. Lunch the application using 'ng server' command.
+		Step-2. Open the browser and open the application URL.
+		Step-3. Now you will see the first page of the application which will be 'Upload File'.
+		Step-4. From this page, you would be able to upload the CSV file only otherwise you will get the message.
+		Step-5. After successfully updated the CSV file. you will get the message for the success.
+		Step-6. After that, you can navigate to 'Result' page using Header's tabs.
+		Step-7. On this page you will see either one message (i.e. 'No data available. To upload to the data please go to Upload File tab') or table with the uploaded data.
+		Step-8. If you will see the message then go to the 'Upload File' tab and repeat from the  Step-4.
+		Step-9. If you will see the table then you can perform Filter, pagination etc on the table records.

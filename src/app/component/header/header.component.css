@@ -1,0 +1,33 @@
+.header {
+    height: 80px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.row {
+    max-width: 950px;
+    margin: 0 auto 0 auto;
+    height: 100%;
+    position: relative;
+    background: #fff;
+}
+
+img {
+    width: 60px;
+}
+
+.logo {
+    position: absolute;
+    display: block;
+}
+
+.menu {
+    position: relative;
+    text-align: right;
+}
+
+mat-tab-group {
+    width: auto;
+    padding-top: 15px;
+    border-top: 1px solid #e3e3e3;
+    float: right;
+}

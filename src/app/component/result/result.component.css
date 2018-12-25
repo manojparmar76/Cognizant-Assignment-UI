@@ -1,0 +1,24 @@
+.result-section {
+    padding: 2% 0 2% 0;
+}
+
+table {
+    width: 100%;
+}
+  
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+  
+td, th {
+    width: 25%;
+}
+
+.message {
+    text-align: center;
+    float: left;
+    font-size: 20px;
+    color: darkcyan;
+    padding: 1%;
+}
